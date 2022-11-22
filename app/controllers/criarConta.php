@@ -9,7 +9,7 @@ class CriarConta extends Controller
         if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
             mostrar($_POST);
-            $usuario = $this->carregaModel("Usuario");
+            $usuario = $this->load_model  ("Usuario");
             $usuario->criarConta($_POST);
         }
         $this->view("/criarConta", $dados);

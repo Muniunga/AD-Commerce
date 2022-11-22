@@ -9,12 +9,14 @@ class Controller
         }
     }
 
-    public function carregaModel($model)
+    public function load_model($model)
     {
-        if (file_exists("../app/models/" . strtolower($model) . ".php")) {
-            include "../app/models/" . strtolower($model) . ".php";
-            return $a = new $model();
+        if (file_exists("../app/models/" . $model . ".class.php")) {
+            include "../app/models/" . $model . ".class.php";
+            return $b = new $model();
         }
         return false;
     }
-}
+
+   
+} 
