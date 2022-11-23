@@ -31,7 +31,7 @@ class Usuario
         if ($this->erro == "") {
             //guardar se tudo estiver bem
             $nivel = "Cliente";
-            $url_adress = get_maiorTamanho_aleatorio();
+            $url_adress = $this->get_maiorTamanho_aleatorio(60);
         }
 
 
@@ -50,17 +50,21 @@ class Usuario
     }
 
 
-    private function get_maiorTamanho_aleatorio($Tamanho)
-    {
-        $array = array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z');
-        $text = "";
-      
-        $tamnaho = rand(7,$tamanho);
+    private function get_maiorTamanho_aleatorio($tamanho) {
 
-        for ($i = 0; $i < $tamanho; $i++) {
-            $aleatorio = rand(0, 61);
-            $text .= $array[$aleatorio];
-        }
-        return $text;
-    }
+		$array = array(0,1,2,3,4,5,6,7,8,9,'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z');
+		$text = "";
+
+		$tamanho = rand(4,$tamanho);
+
+		for($i=0;$i<$tamanho;$i++) {
+
+			$aleatorio = rand(0,61);
+			
+			$text .= $array[$aleatorio];
+
+		}
+
+		return $text;
+	}
 }
