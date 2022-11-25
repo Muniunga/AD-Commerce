@@ -33,7 +33,7 @@
 						<div class="contactinfo">
 							<ul class="nav nav-pills">
 								<li><a href="#"><i class="fa fa-phone"></i> +2 95 01 88 821</a></li>
-								<li><a href="#"><i class="fa fa-envelope"></i> info@domain.com</a></li>
+								<li><a href="#"><i class="fa fa-envelope"></i> adcommerce@gmail.com</a></li>
 							</ul>
 						</div>
 					</div>
@@ -77,8 +77,8 @@
 									<span class="caret"></span>
 								</button>
 								<ul class="dropdown-menu">
-									<li><a href="#">Canadian Dollar</a></li>
-									<li><a href="#">Pound</a></li>
+									<li><a href="#">Kwanza</a></li>
+									<li><a href="#">Dolar</a></li>
 								</ul>
 							</div>
 						</div>
@@ -86,10 +86,10 @@
 					<div class="col-sm-8">
 						<div class="shop-menu pull-right">
 							<ul class="nav navbar-nav">
-								<li><a href="#"><i class="fa fa-user"></i> Account</a></li>
-								<li><a href="#"><i class="fa fa-star"></i> Wishlist</a></li>
-								<li><a href="checkout"><i class="fa fa-crosshairs"></i> Checkout</a></li>
-								<li><a href="cart"><i class="fa fa-shopping-cart"></i> Cart</a></li>
+								<li><a href="#"><i class="fa fa-user"></i> Minha conta</a></li>
+								<li><a href="#"><i class="fa fa-star"></i> Lista de desejos</a></li>
+								<li><a href="verificar"><i class="fa fa-crosshairs"></i> Verificar</a></li>
+								<li><a href="carrinho"><i class="fa fa-shopping-cart"></i> Carrinho</a></li>
 								<li><a href="login"><i class="fa fa-lock"></i> Login</a></li>
 							</ul>
 						</div>
@@ -112,24 +112,19 @@
 						</div>
 						<div class="mainmenu pull-left">
 							<ul class="nav navbar-nav collapse navbar-collapse">
-								<li><a href="index" class="active">Home</a></li>
+								<li><a href="index" class="active">Inicio</a></li>
 								<li class="dropdown"><a href="#">Shop<i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">
-                                        <li><a href="shop">Products</a></li>
-										<li><a href="product-details">Product Details</a></li> 
-										<li><a href="checkout">Checkout</a></li> 
-										<li><a href="cart">Cart</a></li> 
+                                        <li><a href="shop">Produtos</a></li>
+										<li><a href="produto-detalhes">Detalhes de Produto </a></li> 
+										<li><a href="verificar">Verificar</a></li> 
+										<li><a href="carrinho">Carrinho</a></li> 
 										<li><a href="login">Login</a></li> 
                                     </ul>
                                 </li> 
-								<li class="dropdown"><a href="#">Blog<i class="fa fa-angle-down"></i></a>
-                                    <ul role="menu" class="sub-menu">
-                                        <li><a href="blog">Blog List</a></li>
-										<li><a href="blog-single">Blog Single</a></li>
-                                    </ul>
-                                </li> 
+								<li><a href="blog">Blog</a></li> 
 								<li><a href="404">404</a></li>
-								<li><a href="contact-us">Contact</a></li>
+								<li><a href="contactos">Contactos</a></li>
 							</ul>
 						</div>
 					</div>
